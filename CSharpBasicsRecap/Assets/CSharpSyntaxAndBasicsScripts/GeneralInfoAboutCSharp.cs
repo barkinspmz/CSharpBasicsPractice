@@ -19,6 +19,14 @@ public class GeneralInfoAboutCSharp : MonoBehaviour
            check for some events in this method such as the player's input.
 
            Every C# statement ends with a semicolon. Ex: int a = 10; - You can think this as dot at the end of sentence.
+           
+           - COMMENTS IN C# - 
+           The main aim of using comments is conveying what you did to your colleague in specific area, taking a note to avoid 
+           unforget what you did or describing the action, variable, method, etc.. 
 
-    */
+           If you wanna one line comment: //This is actual comment.
+           This type of comment allow you to finish whenever you want: /* (Where comment started)   xxxxx   (Where it ends) */
+           
+           
+         
 }
