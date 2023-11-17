@@ -13,7 +13,7 @@ public class GeneralInfoAboutCSharp : MonoBehaviour
            C# Syntax in Unity; 
            
            The method named Start() works when the game has started. You can declare your variables or doing your actions
-           in there once when started the game. It will work for one time only.
+           in there once when started the game. It will work once when the game has started.
      
            The method named Update() works once per frame. Declaring variable in that method is not a good way. You can 
            check for some events in this method such as the player's input.
