@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Operators : MonoBehaviour
 {
@@ -58,11 +59,27 @@ public class Operators : MonoBehaviour
         Debug.Log($"Multiply of {firstNumber} * {secondNumber} = {multiply}");
         Debug.Log($"Divided of {firstNumber} / {secondNumber} = {divide}");
         Debug.Log($"Modul of {firstNumber} % {secondNumber} = {modul}");
+
+
+        //How to debug my variable on the Debug Log with texts?
+        //There are 3 way. The first 
+        int number1 = 5;
+        int number2 = 6;
+
+        int summary = number1+number2;
+        //FIRST WAY - + operator but not as add up like mathematic. It adds string to a string.
+        Debug.Log("The summary is: " + summary);
+        //OUTPUT: The summary is 11
+
+        //SECOND WAY - Comma , way.
+        Console.WriteLine("The summary is: {0} ", summary);
+        //OUTPUT: The summary is 11. The {0} is holding space for the variable after the comma
+
+        //THIRD WAY - Dollar sign. $
+        Debug.Log($"The summary is: {summary}");
+        //OUTPUT: The summary is 11. Same way with comma but it allows to put variable to curly brackets immidiately.
+
+
     }
 
-    
-    void Update()
-    {
-        
-    }
 }
