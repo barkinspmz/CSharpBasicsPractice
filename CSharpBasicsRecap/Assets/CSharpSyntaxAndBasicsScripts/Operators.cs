@@ -17,6 +17,12 @@ public class Operators : MonoBehaviour
            % = Modulus
            ++ = Increment one
            -- = Decrement one
+
+           || = OR
+           && = AND
+
+           == = Equal
+           != = Not equal
            
            Other shortcut operators: 
            5 += 10 it means that 5 = 5 + 10. It will be now 15.

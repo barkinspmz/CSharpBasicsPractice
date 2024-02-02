@@ -22,7 +22,22 @@ public class BooleanExpression : MonoBehaviour
 
          Debug.Log(10>4) - Is 10 higher than 4? YES! So it will return TRUE! 
          OUTPUT : TRUE
-         
+
+         Debug.Log("barkin" == "john") - Is barkin equals to john? ABSOULATELY NOT! Return FALSE!
+         OUTPUT : FALSE
+
+         if(4 > 5) - Is 4 higher than 5 ? No. The code will not execude in this statement.
+         {
+               Debug.Log("Hello world!");
+         }
+         OUTPUT : NOTHING
+
+         if(11 > 6) - Is 11 higher than 6 ? YES!. The code will execude in this statement.
+         {
+               Debug.Log("Hello world!");
+         }
+         OUTPUT : Hello world!
+          
          DIFFERENT EXAMPLE: WE WILL DECLARE BOOLEAN VARIABLE WHICH IS EQUAL TO TRUE
          bool isPlayerAlive = true;
          Debug.Log(isPlayerAlive) - IsPlayerAlive? As we declared, yes it is so it will return TRUE!
@@ -45,7 +60,26 @@ public class BooleanExpression : MonoBehaviour
     int playersHealth = 5;
     void Start()
     {
-        
+        Debug.Log($"These codes iniated by {this.gameObject.name}'s Start method.");
+        if (11>6)
+        {
+            Debug.Log("Hello John!");
+        }
+        //OUTPUT: Hello Jessica
+
+        if (7<14)
+        {
+            Debug.Log("Hello Jessica!");
+        }
+        //OUTPUT: Hello Jessica
+
+        if (8>15)
+        {
+            Debug.Log("Hi!");
+        }
+        //OUTPUT: NOTHING BECAUSE THE CODE WILL NOT EXECUTED.
+
+        Debug.Log("-------------------");
     }
 
     
