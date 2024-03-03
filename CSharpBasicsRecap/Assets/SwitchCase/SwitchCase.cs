@@ -87,9 +87,4 @@ public class SwitchCase : MonoBehaviour
         }
     }
 
-    
-    void Update()
-    {
-        
-    }
 }
