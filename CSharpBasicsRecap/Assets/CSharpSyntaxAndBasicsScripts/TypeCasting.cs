@@ -62,7 +62,7 @@ public class TypeCasting : MonoBehaviour
         //float floatNum = doubleNum; **This will give error because we cannot convert large size type to smaller type size automatically.
         float floatNum = (float)doubleNum;
 
-        //OR we can do the same thing with using Convert class.
+        //OR we can do the same thing with using Convert class. 
 
         float floatNum2 = Convert.ToSingle(doubleNum);
 
