@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Methods : MonoBehaviour
@@ -62,10 +63,14 @@ public class Methods : MonoBehaviour
      LET'S PRACTICE!
       
      */
+
+    int health = 100;
     void Start()
     {
         Debug.Log(SumOfTwoNumbers(5, 6));
         Debug.Log(PuttingEmptySpaceBetweenNameAndSurname("Jonathan","Davey"));
+        CalculateTwoNumbersAddition(3, 5);
+        GetDamage(35);
     }
 
 
@@ -78,4 +83,16 @@ public class Methods : MonoBehaviour
     {
         return name + " "+ surname;
     }
+
+    private void CalculateTwoNumbersAddition(int num1, int num2)
+    {
+        Console.Write("Num 1: {0}, Num 2: {1}", num1, num2);
+    }
+
+    private void GetDamage(int damageAmount)
+    {
+        health -= damageAmount;
+        //The health will decreased based on the parameter value.
+    }
+
 }
