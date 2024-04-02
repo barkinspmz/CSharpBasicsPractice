@@ -12,6 +12,11 @@ public class OOP : MonoBehaviour
       OOP enables the development of fully reusable applications with reduced code and shorter development durations.     
         
       Reusable, clean and well-structured code = OOP. 
-
+      
+      THERE ARE 4 CONCEPTS.
+      1- Abstraction
+      2- Polymorphism
+      3- Inheritance 
+      4- Encapsulation / Properties
      */
 }
