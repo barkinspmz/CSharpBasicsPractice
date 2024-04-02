@@ -163,11 +163,6 @@ public class Classes : MonoBehaviour
 
     }
 
-    
-    void Update()
-    {
-        
-    }
 }
 
 public class Car
